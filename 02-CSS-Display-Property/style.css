@@ -1,0 +1,49 @@
+html {
+    font-size: 62.5%;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.block {
+    display:block;
+    background-color: dodgerblue;
+    color:white;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.inline {
+    display: inline;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+}
+
+.inline-block{
+    display:inline-block;
+    background-color: limegreen;
+    padding: 10px;
+    margin: 20px 0;
+    width: 50% ;
+}
+
+.none {
+    display:none
+}
